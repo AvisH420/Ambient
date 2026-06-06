@@ -1,4 +1,4 @@
-# ambience
+# ambient
 
 An end-to-end IoT monitoring system. Three environmental sensors on a microcontroller publish readings over WiFi every five seconds; a Python backend persists them to a database and runs unsupervised anomaly detection on each sample in real time; a React dashboard visualizes the live stream and flags anything unusual.
 
