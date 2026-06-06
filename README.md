@@ -1,4 +1,4 @@
-# ambient
+# ambience
 
 An end-to-end IoT monitoring system. Three environmental sensors on a microcontroller publish readings over WiFi every five seconds; a Python backend persists them to a database and runs unsupervised anomaly detection on each sample in real time; a React dashboard visualizes the live stream and flags anything unusual.
 
@@ -14,11 +14,12 @@ Built from scratch in roughly two weeks: hardware wiring, firmware, broker, back
      Show: the dashboard live, breathing on the DHT22, an anomaly appearing.
      Drag the .mov into GitHub's README editor when editing on the web - it uploads to
      user-attachments and gives you a video URL. Paste that link below. -->
+<img width="1470" height="813" alt="Screenshot 2026-06-06 at 18 14 05" src="https://github.com/user-attachments/assets/aabd763f-e40a-4e86-830f-f53cc21e197f" />
 
-<!-- https://github.com/user-attachments/assets/your-video-id-here -->
+https://github.com/user-attachments/assets/f3227e2e-c756-4b64-bf5e-ec996bac7443
 
-A short demo showing live sensor data and a triggered anomaly when I breathe on the humidity sensor.
 
+A short demo showing live sensor data.
 ## What it does
 
 - ESP32 reads temperature and humidity from a DHT22 and air quality from an MQ-135 every 5 seconds
@@ -154,6 +155,7 @@ The three features (temperature, humidity, air quality) sit on wildly different 
 - Auto-retrain on a schedule (nightly cron) to handle gradual environmental drift without manual intervention
 - A second sensor node so I can compare two locations
 
-## License
 
-MIT
+
+
+
