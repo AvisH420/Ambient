@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  background-color: #F2EBDC;
+  color: #2D2A26;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #2D2A26;
+  color: #F2EBDC;
+}
+
+/* Hide scrollbar in a restrained way */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(45, 42, 38, 0.15); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: rgba(45, 42, 38, 0.3); }
